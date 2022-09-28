@@ -19,7 +19,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer, CGIHTTPRequestHandle
  
 Server = HTTPServer
 handler = CGIHTTPRequestHandler
-port = 8080
+port = 8000
 server_address = ("", port)
 # Find CGI scripts in the current working directory.
 handler.cgi_directories = ["/"]
